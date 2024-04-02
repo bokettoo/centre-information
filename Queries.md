@@ -45,7 +45,7 @@ SELECT numCINetu, COUNT(codeSess) FROM centremformation.inscription GROUP BY num
 ```sql
 SELECT codeSess, typeCours, COUNT(numinscription) FROM inscription GROUP BY codeSess, typeCours;
 ```
-
+#Part 2
 
 1. List sessions for each course
 ```sql
